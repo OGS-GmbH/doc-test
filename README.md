@@ -1,14 +1,14 @@
 # Angular Utilities
-![GitHub License](https://img.shields.io/github/license/OGS-GmbH/{{PROJECT_NAME}}?color=0f434e)
-![NPM Version](https://img.shields.io/npm/v/%40ogs-gmbh%2F{{PROJECT_NAME}}?color=0f434e)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/{{PROJECT_NAME}}/ngx-utils/main-deploy.yml?color=0f434e)
+![GitHub License](https://img.shields.io/github/license/OGS-GmbH/doc-test?color=0f434e)
+![NPM Version](https://img.shields.io/npm/v/%40ogs-gmbh%2Fdoc-test?color=0f434e)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/OGS-GmbH/doc-test/main-deploy.yml?color=0f434e)
 
 This repository provides a lightweight collection of utility functions and helpers for Angular applications. Designed to simplify common tasks such as type checking, formatting, data manipulation, and reactive programming patterns, this library helps improve code readability, reusability, and maintainability across projects.
 
 ## Installation
 To get started, you can install this package using your preferred package manager.
 ````shell
-npm install -D @ogs-gmbh/ngx-utils
+npm install -D @ogs-gmbh/doc-test
 ````
 
 <details>
@@ -16,11 +16,11 @@ npm install -D @ogs-gmbh/ngx-utils
 <br />
 
 ````shell
-yarn add -D @ogs-gmbh/ngx-utils
+yarn add -D @ogs-gmbh/doc-test
 ````
 
 ````shell
-pnpm install -D @ogs-gmbh/ngx-utils
+pnpm install -D @ogs-gmbh/doc-test
 ````
 
 </details>

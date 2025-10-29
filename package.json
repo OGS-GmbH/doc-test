@@ -1,16 +1,16 @@
 {
-	"name": "{{PROJECT_NAME}}",
+	"name": "doc-test",
 	"version": "1.0.0",
 	"description": "",
 	"keywords": [],
-	"homepage": "https://github.com/OGS-GmbH/{{PROJECT_NAME}}?tab=readme-ov-file",
-	"bugs": "https://github.com/OGS-GmbH/{{PROJECT_NAME}}/issues",
+	"homepage": "https://github.com/OGS-GmbH/doc-test?tab=readme-ov-file",
+	"bugs": "https://github.com/OGS-GmbH/doc-test/issues",
 	"license": "MIT",
 	"author": "OGS GmbH",
 	"contributors": [],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/OGS-GmbH/{{PROJECT_NAME}}"
+		"url": "https://github.com/OGS-GmbH/doc-test"
 	},
 	"scripts": {
 		"ci:build:main:production": "ng build --configuration production",
