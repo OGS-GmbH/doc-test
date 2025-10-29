@@ -29,6 +29,13 @@ export class User {
    */
   public age: number;
 
+		/**
+			* @deprecated
+		* Das Alter des Benutzers in Jahren.
+		*/
+  public fullName: string | undefined;
+
+
   /**
    * Erstellt eine neue Instanz eines Benutzers.
    *
