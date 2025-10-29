@@ -2,7 +2,8 @@
   "$schema": "https://typedoc.org/schema.json",
   "name": "Home",
   "includeVersion": true,
-  "entryPoints": ["dist/prod/index.d.ts"],
+  "entryPoints": ["src/public-api.ts"],
+		"entryPointStrategy": "expand",
   "plugin": ["typedoc-plugin-markdown"],
   "out": "docs/typedoc/out",
   "entryFileName": "index.md",
@@ -27,9 +28,5 @@
   "categorizeByGroup": false,
   "githubPages": true,
   "hideGenerator": true,
-  "searchInComments": true,
-		"compilerOptions": {
-				"declaration": true,
-				"declarationMap": true
-		}
+  "searchInComments": true
 }
