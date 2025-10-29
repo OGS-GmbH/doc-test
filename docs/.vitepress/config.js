@@ -1,7 +1,6 @@
 export default {
-	 base: "/repo/",
-  title: 'ogs-gmbh/...',
+  base: "/doc-test/",
+  title: 'ogs-gmbh/doc-test',
   srcDir: "dist/docs/typedoc/out",
-  themeConfig: {
-  }
+  themeConfig: {}
 };
