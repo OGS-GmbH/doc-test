@@ -1,5 +1,5 @@
 {
-	"name": "doc-test",
+	"name": "@ogs-gmbh/doc-test",
 	"version": "1.0.0",
 	"description": "",
 	"keywords": [],
@@ -14,12 +14,16 @@
 	},
 	"scripts": {
 		"ci:build:main:production": "ng build --configuration production",
+		"ci:docs:build": "vitepress build docs",
 		"ci:pr:commitlint:main:commitlint": "commitlint",
 		"ci:pr:lint:main:eslint": "eslint .",
-		"ci:docs:build": "vitepress build docs",
 		"prepare": "husky"
 	},
 	"devDependencies": {
+		"@angular-devkit/build-angular": "^18.2.1",
+		"@angular/cli": "^18.2.1",
+		"@angular/compiler-cli": "^18.2.1",
+		"ng-packagr": "^18.2.1",
 		"@commitlint/config-conventional": "^19.5.0",
 		"@eslint/js": "^9.9.1",
 		"@eslint/json": "^0.6.0",

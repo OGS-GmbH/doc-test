@@ -27,5 +27,9 @@
   "categorizeByGroup": false,
   "githubPages": true,
   "hideGenerator": true,
-  "searchInComments": true
+  "searchInComments": true,
+		"compilerOptions": {
+				"declaration": true,
+				"declarationMap": true
+		}
 }

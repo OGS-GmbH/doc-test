@@ -29,10 +29,10 @@ export class User {
    */
   public age: number;
 
-		/**
-			* @deprecated
-		* Das Alter des Benutzers in Jahren.
-		*/
+  /**
+   * @deprecated
+   * Das Alter des Benutzers in Jahren.
+   */
   public fullName: string | undefined;
 
 
@@ -43,7 +43,7 @@ export class User {
    * @param lastName - Der Nachname des Benutzers.
    * @param age - Das Alter des Benutzers in Jahren.
    */
-  constructor(firstName: string, lastName: string, age: number) {
+  constructor (firstName: string, lastName: string, age: number) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
@@ -54,8 +54,8 @@ export class User {
    *
    * @returns Der vollständige Name in der Form „Vorname Nachname“.
    */
-  public getFullName(): string {
-    return `${this.firstName} ${this.lastName}`;
+  public getFullName (): string {
+    return `${ this.firstName } ${ this.lastName }`;
   }
 
   /**
@@ -64,7 +64,7 @@ export class User {
    * @remarks
    * Diese Methode verändert den Zustand der Instanz direkt.
    */
-  public incrementAge(): void {
+  public incrementAge (): void {
     this.age++;
   }
 
@@ -73,7 +73,7 @@ export class User {
    *
    * @returns `true`, wenn das Alter ≥ 18 ist, sonst `false`.
    */
-  public isAdult(): boolean {
+  public isAdult (): boolean {
     return this.age >= 18;
   }
 }
